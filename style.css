@@ -1,22 +1,24 @@
-
+*{
+    font-family: 'Source Sans Pro', sans-serif;
+}
 
 .container{
     margin: 0 auto;
 }
 
-
+/* parte iniziale */
 .intest{
     width: 80%;
     height: 200px;
     margin: 0 auto;
 }
-.immag {
+.logo{
     width: 20%;
     padding-right: 20px;
     border-right: 1px solid lightgrey;
     display: block;
+    position: relative;
 }
-
 .lista{
     list-style: none;
     float: left;
@@ -24,8 +26,8 @@
     margin: 5px;
 }
 
-/* main */
-.giallo{
+/* centrale */
+.immaginecentrale{
     width: 80%;
     height: 500px;
     margin: 0 auto;
@@ -35,12 +37,7 @@
     background-size: cover;
     background-position: 0px -70px;
     position: relative;
-    border-radius: 8px;
-    
-}
-.h1{
-    margin-bottom: 0;
-    padding-top: 15px;
+    border-radius: 8px;   
 }
 .titolo1{
     color: white;
@@ -48,22 +45,20 @@
     position: absolute;
     bottom: 60px;
     left: 50px;
+    text-shadow: 0.5px 0.5px grey;
 }
-
-.titolo1 p{
-    text-shadow: 1px 1px  rgba(0, 0, 0, 0.466);
-}
-
-.titolo3{
+.titolo2{
     position: absolute;
     left: 50px;
-    bottom: 38px;
+    bottom: 35px;
     color: white;
-    font-size: 17px;
+    font-size: 19px;
+    text-shadow: 0.5px 0.5px grey;
 }
 
 
-.blu{
+/* titolo leadership */
+.headermain{
     width: 80%;
     height: 600px;
     margin: 0 auto;
@@ -71,15 +66,19 @@
     position: relative;
     display: block;
 }
-
-
-.celeste{
+.divleadership{
     width: 100%;
     height: 100px;
     margin-bottom: 20px;
 }
+.titoloheadmain{
+    margin-bottom: 0;
+    padding-top: 15px;
+}
 
-.cel1{
+
+/* carta centrale 1 */
+.cella1{
     width: 25%;
     height: calc( 600px - 140px  );
     position: relative;
@@ -99,7 +98,7 @@
     border-radius: 8px;
     border: 2px solid lightgrey
 }
-.hhh{
+.titolocarta1{
     position: absolute;
     top: 228px;
     font-size: 20px;
@@ -112,7 +111,10 @@
     top: 260px;
     font-size: 17px;
 }
-.cel2{
+
+
+/* carta centrale 2 */
+.cella2{
     width: calc( 50% - 40px);
     height: calc( 600px - 140px  );
     display: inline-block;
@@ -122,14 +124,7 @@
     position: relative;
     
 }
-.cel3{
-    width: 25%;
-    height: calc( 600px - 140px  );
-    display: inline-block;
-    float: left;
-    
-}
-.immag2{
+.carta2{
     height: 50%;
     width: 100%;
     background-image: url(img/banner-2.jpg);
@@ -139,19 +134,28 @@
     border-radius: 8px;
     border: 2px solid lightgrey
 }
+.titolocarta2{
+    position: absolute;
+    top: 228px;
+    font-size: 20px;
+    font-weight: lighter;
+}
 .corpo2{
     position: absolute;
     top: 260px;
     font-size: 17px;
     width: auto;
 }
-.tit{
-    position: absolute;
-    top: 228px;
-    font-size: 20px;
-    font-weight: lighter;
+
+
+/* carta centrale 3 */
+.cella3{
+    width: 25%;
+    height: calc( 600px - 140px  );
+    display: inline-block;
+    float: left;
 }
-.cella4{
+.carta3{
     height: 50%;
     width: 100%;
     background-image: url(img/img-3.jpg);
@@ -163,22 +167,22 @@
     border: 2px solid lightgrey
     
 }
-.corpo9{
-    position: absolute;
-    top: 377px;
-    font-size: 17px;
-    width: auto;  
-}
-.hhh1{
+.titolocarta3{
     position: absolute;
     top: 351px;
     font-size: 20px;
     font-weight: lighter;
 }
+.corpo3{
+    position: absolute;
+    top: 377px;
+    font-size: 17px;
+    width: auto;  
+}
 
 
 /* footer */
-.viola{
+.footer{
     width: 80%;
     height: 40px;
     margin: 0 auto;
@@ -186,6 +190,6 @@
     line-height: 40px; 
     text-align: center;
 }
-.span1{
+.cuore{
      color: red;
 }
